@@ -15,7 +15,7 @@ It offers a slightly simple API imho.
     // Make a renderer
     var render = q.makeRenderer(Component, defaultProps, target)
 
-    var _tree = render({}, function() {
+    var _tree = render(newProps, function() {
         // Query by class
         var _comp  = q(_tree)('.myComponentClass').one()
         var _comps = q(_tree)('.myComponentClass').all()

@@ -1,0 +1,29 @@
+{
+  "name": "react-test-query",
+  "version": "0.0.1",
+  "description": "ReactTestUtils wrapper",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asbjornenge/react-test-query.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "test",
+    "tdd",
+    "testing"
+  ],
+  "author": "Asbjorn Enge <asbjorn@hanafjedle.net>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/asbjornenge/react-test-query/issues"
+  },
+  "homepage": "https://github.com/asbjornenge/react-test-query"
+}

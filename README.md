@@ -31,6 +31,6 @@ It offers a slightly simple API imho.
 
 ## Docs
 
-For full documentation see the [spec](https://github.com/asbjornenge/react-test-utils/blob/master/test/spec.js).
+For full documentation see the [spec](https://github.com/asbjornenge/react-test-query/blob/master/test/spec.js).
 
 enjoy.

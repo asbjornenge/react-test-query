@@ -13,7 +13,7 @@ It offers a slightly simple API imho.
     var q = require('react-test-query')
 
     // Make a renderer
-    var render = q.makeRenderer(Component, {}, document.body)
+    var render = q.makeRenderer(Component, defaultProps, target)
 
     var _tree = render({}, function() {
         // Query by class

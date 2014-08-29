@@ -6,28 +6,32 @@ It offers a slightly simple API imho.
 
 ## Install
 
-    npm install react-test-query
+```sh
+npm install react-test-query
+```
 
 ## Usage
 
-    var q = require('react-test-query')
+```js
+var q = require('react-test-query')
 
-    // Make a renderer
-    var render = q.makeRenderer(Component, defaultProps, target)
+// Make a renderer
+var render = q.makeRenderer(Component, defaultProps, target)
 
-    var _tree = render(newProps, function() {
-        // Query by class
-        var _comp  = q(_tree)('.myComponentClass').one()
-        var _comps = q(_tree)('.myComponentClass').all()
+var _tree = render(newProps, function() {
+    // Query by class
+    var _comp  = q(_tree)('.myComponentClass').one()
+    var _comps = q(_tree)('.myComponentClass').all()
 
-        // Query by tag
-        var _comp  = q(_tree)('div').one()
-        var _comps = q(_tree)('div').all()
+    // Query by tag
+    var _comp  = q(_tree)('div').one()
+    var _comps = q(_tree)('div').all()
 
-        // Query by Component
-        var _comp  = q(_tree)(Component).one()
-        var _comps = q(_tree)(Component).all()
-    })
+    // Query by Component
+    var _comp  = q(_tree)(Component).one()
+    var _comps = q(_tree)(Component).all()
+})
+```
 
 ## Docs
 
